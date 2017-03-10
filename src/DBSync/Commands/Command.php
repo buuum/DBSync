@@ -68,7 +68,7 @@ class Command extends AbstractCommand
 
     protected function getConfigDefault()
     {
-        return __DIR__ . '/../app/db.yml';
+        return __DIR__ . '/../../app/db.yml';
     }
 
     protected function fire()
