@@ -1,0 +1,32 @@
+{
+  "name": "buuum/dbsync",
+  "type": "library",
+  "description": "Command DB package for your app",
+  "homepage": "https://github.com/buuum/DBSync",
+  "keywords": [
+    "db",
+    "command"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alfons Martinez",
+      "email": "alfonsmartinezparra@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DBSync\\": "src/DBSync"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "symfony/console": "^3.2",
+    "buuum/phdb": "^1.0",
+    "symfony/yaml": "^3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "bin": ["src/bin/dbsync"]
+}

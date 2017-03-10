@@ -1,0 +1,28 @@
+paths:
+  backup: backup
+  migrations: migrations
+environments:
+  local.dev:
+    database: databasename
+    host: localhost
+    username: root
+    password:
+    adapter: mysql
+    port: 3306
+    charset: utf8
+  dev.local.com:
+    database: databasename
+    host: localhost
+    username: root
+    password:
+    adapter: mysql
+    port: 3306
+    charset: utf8
+  local.com:
+    database: databasename
+    host: localhost
+    username: root
+    password:
+    adapter: mysql
+    port: 3306
+    charset: utf8
